@@ -73,6 +73,7 @@ def ner_analysis(input_text):
     searchQuery.append("output: ")
 
     response = model.generate_content(searchQuery)
+    result=""
     if len(response.parts)>0:
         result= response.text
     return result
