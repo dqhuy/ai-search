@@ -81,8 +81,8 @@ def ner_analysis(input_text):
 def main():
     """Chức năng chính của chương trình"""
     
-    st.header("Demo NLP: phân tích lệnh tìm kiếm của người dùng ở dạng ngôn ngữ tự nhiên thành một tập các điều kiện tìm và giá trị cần tìm")
-    
+    st.header("Demo NLP:" )
+    st.subheader("Phân tích lệnh tìm kiếm của người dùng ở dạng ngôn ngữ tự nhiên thành một tập các điều kiện tìm và giá trị cần tìm")
     text = st.text_input("Xin mời bạn nhập lệnh tìm kiếm:")
     sampleText= "hồ sơ tư pháp huyện ứng hòa trong quý 4 2023"
     st.text("Ví dụ mẫu:" +sampleText)
